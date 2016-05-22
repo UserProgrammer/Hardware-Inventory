@@ -1,0 +1,96 @@
+﻿.screen {
+  width: 100%;
+  text-align: center;
+}
+
+.toggle {
+  width: 200px;
+  border: solid 1px blue;
+  text-align: center;
+  display: table-cell;
+}
+
+#searchScreen {
+  display: block;
+}
+
+#addDeviceScreen,
+#transferDeviceScreen,
+#deleteDeviceScreen,
+#modifyDeviceScreen,
+#modifyOptionsScreen,
+#modifyOptionsScreen_screen2 {
+  display: none;
+}
+
+.textField{
+  width: 25%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#addDev_txtArea_comments {
+  width: 50%;
+  margin:0 auto;
+}
+
+.ddmenu {
+  display: table;
+  margin:0 auto;
+}
+
+#modOpt_tbl_optionsListing{
+    width:90%;
+    margin:0 auto;
+}
+
+.autosearch{
+    position:absolute;
+    left:50%;
+    width:auto;
+    display:block;
+    position:absolute;
+}
+
+.searchbar {
+    position:relative;
+    left:-50%;
+    min-width:190px;
+}
+
+.suggestion-list {
+  position: relative;
+  top: 100%;
+  left: -50%;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.suggestion-item:hover{
+    background-color:aqua;
+}
+
+.canChange{
+    background-color: #80bfff;
+    color: white;
+}
+
+.mustChange{
+    background-color: #ff1717;
+    color:white
+}
