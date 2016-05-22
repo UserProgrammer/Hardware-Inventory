@@ -1,5 +1,7 @@
 ﻿<% Response.Expires = -1; %>
 
+<!--<!---->-->
+
 <%@ Page Language="C#" AutoEventWireup="true"
     CodeBehind="index.aspx.cs" Inherits="PC_Inventory_Project._Default" %>
 
@@ -8,13 +10,13 @@
 <head>
     <title>PC Inventory</title>
 
-    <script type="text/javascript" src="/scripts/jquery-2.2.2.js"></script> <!--JQuery-->
-    <script type="text/javascript" src="/scripts/bootstrap.min.js"></script> <!--Bootstrap js-->
-    <script type="text/javascript" src="/scripts/bootbox.min.js"></script> <!--Bootbox js-->
-    <script type="text/javascript" src="/scripts/script.js"></script> <!--Custom script file-->
+    <script type="text/javascript" src="/webapp/scripts/jquery-2.2.2.js"></script> <!--JQuery-->
+    <script type="text/javascript" src="/webapp/scripts/bootstrap.min.js"></script> <!--Bootstrap js-->
+    <script type="text/javascript" src="/webapp/scripts/bootbox.min.js"></script> <!--Bootbox js-->
+    <script type="text/javascript" src="/webapp/scripts/script.js"></script> <!--Custom script file-->
     
-    <link type="text/css" rel="Stylesheet" href="./css/bootstrap.min.css"> <!--Bootstrap css-->
-    <link type="text/css" rel="Stylesheet" href="./css/style.css"> <!--Custom css file-->
+    <link type="text/css" rel="Stylesheet" href="/webapp/css/bootstrap.min.css"> <!--Bootstrap css-->
+    <link type="text/css" rel="Stylesheet" href="/webapp/css/style.css"> <!--Custom css file-->
 </head>
 
 <body>
@@ -23,10 +25,10 @@
         <ul id="menu" class="nav nav-tabs">
             <li id="search" class="active"><a role="button">Search</a></li>
             <li id="addDevice"><a role="button">Add Device</a></li>
-            <li id="transferDevice"><a role="button">Transfer Device</a></li>
+<!--        <li id="transferDevice"><a role="button">Transfer Device</a></li>
             <li id="deleteDevice"><a role="button">Delete Device</a></li>
             <li id="modifyDevice"><a role="button">Modify Device</a></li>
-            <li id="modifyOptions"><a role="button">Modify Options</a></li>
+            <li id="modifyOptions"><a role="button">Modify Options</a></li>     -->
         </ul>
     </div>
 
@@ -171,6 +173,7 @@
         <button id="addDev_btn_cancel" type="button" class="btn btn-default">Cancel</button>
     </div>
 
+
     <!--Transfer Device Screen-->
     <div class="screen" id="transferDeviceScreen">
         Device Serial Number
@@ -179,7 +182,7 @@
         <br>
         <button id="trfDev_btn_retrieve" class="btn btn-default">Retrieve</button>
     </div>
-
+    
     <!-- Delete Device Screen-->
     <div class="screen" id="deleteDeviceScreen">
         Device Serial Number

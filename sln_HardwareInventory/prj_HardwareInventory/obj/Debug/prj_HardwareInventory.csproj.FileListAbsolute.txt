@@ -1,0 +1,10 @@
+C:\Users\Michael\Source\Repos\Hardware-Inventory\sln_HardwareInventory\prj_HardwareInventory\bin\webapp\index.aspx
+C:\Users\Michael\Source\Repos\Hardware-Inventory\sln_HardwareInventory\prj_HardwareInventory\bin\webapp\scripts\script.js
+C:\Users\Michael\Source\Repos\Hardware-Inventory\sln_HardwareInventory\prj_HardwareInventory\bin\webapp\index.aspx.cs
+C:\Users\Michael\Source\Repos\Hardware-Inventory\sln_HardwareInventory\prj_HardwareInventory\bin\webapp\index.aspx.designer.cs
+C:\Users\Michael\Source\Repos\Hardware-Inventory\sln_HardwareInventory\prj_HardwareInventory\bin\PC_Inventory_Project.dll.config
+C:\Users\Michael\Source\Repos\Hardware-Inventory\sln_HardwareInventory\prj_HardwareInventory\bin\PC_Inventory_Project.dll
+C:\Users\Michael\Source\Repos\Hardware-Inventory\sln_HardwareInventory\prj_HardwareInventory\bin\PC_Inventory_Project.pdb
+C:\Users\Michael\Source\Repos\Hardware-Inventory\sln_HardwareInventory\prj_HardwareInventory\obj\Debug\prj_HardwareInventory.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Source\Repos\Hardware-Inventory\sln_HardwareInventory\prj_HardwareInventory\obj\Debug\PC_Inventory_Project.dll
+C:\Users\Michael\Source\Repos\Hardware-Inventory\sln_HardwareInventory\prj_HardwareInventory\obj\Debug\PC_Inventory_Project.pdb
